@@ -30,8 +30,6 @@ ros2 topic echo /points_raw
 
 
 
-
-
 # docker compose (not working at the moment)
 ```
 docker compose build --no-cache
