@@ -1,6 +1,8 @@
 # MRViz
 Mixed Reality toolkit for ROS visualization (on Hololens)
 
+[Milestone 1](./milestone_1.pdf) · Milestone 2
+
 ## directory setup
 
 ### MRVIZ 
