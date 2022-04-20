@@ -1,10 +1,22 @@
+@import url('https://fonts.googleapis.com/css2?family=M+PLUS+Rounded+1c&display=swap');
+
+
 html,
 body {
+  background-color: rgb(237, 237, 237);
   padding: 0;
   margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen,
-    Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
+  font-family: 'M PLUS Rounded 1c', sans-serif;
+
+  overflow-x: hidden;
+
+  scrollbar-width: none;
 }
+
+body::-webkit-scrollbar {
+  display: none;
+}
+
 
 a {
   color: inherit;
