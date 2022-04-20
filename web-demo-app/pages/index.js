@@ -21,17 +21,17 @@ export default function Home() {
       <div className={styles.paragraph}>
           <img className={styles.logo} src = "mrviz_logo.svg"  alt="MRViz logo"/>
           <p> Nowadays, engineers developing robotics software have a serious constraint.
-              They can visualize the robot's perception of the environment, but cannot have
+              They can visualize the robot s perception of the environment, but cannot have
               a straightforward impression of the difference between such perceived data and
               the real physical world. They often have to rely on uninformative visualizations
               of point clouds or heatmaps on a computer screen with no additional information about
-              the robot's surroundings, making it rather difficult to find the flaws and debug the system. </p>
+              the robot s surroundings, making it rather difficult to find the flaws and debug the system.</p>
       </div>
 
 
       <div className={styles.paragraph}>
           <img className={styles.logo} src = "mrviz_logo.svg"  alt="MRViz logo"/>
-          <p> Thanks to our toolkit, which overlays the robot's sensed data onto the real world,
+          <p> Thanks to our toolkit, which overlays the robot s sensed data onto the real world,
              robotics engineers will benefit from seeing directly what their robot perceives by exploring
               the environment around them with HoloLens. Such feature will simplify the development of ROS 
               (Robot Operating System) software, allowing engineers to fully leverage sensor data by visualizing
@@ -45,7 +45,7 @@ export default function Home() {
           <p> We plan to visualize one type of messages for the time being, focusing 
             on the other types later. Also, we are considering the possibility of combining together
              the visualizations of several message types, allowing more complex and informative evaluations
-              of the robot's environment perception. </p>
+              of the robot s environment perception. </p>
           
       </div>
 
