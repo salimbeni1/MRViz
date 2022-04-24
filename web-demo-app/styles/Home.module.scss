@@ -1,0 +1,54 @@
+
+
+.header{
+
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  width: 100vw;
+
+  margin: 10px 0px;
+
+
+  .logo{
+    height: 10vh;
+  }
+
+  .title{
+    height: 20vh;
+  }
+
+}
+
+.introdemo{
+  height: 65vh;
+  width: 80vw;
+  margin: 5vh 10vw;
+  display: grid;
+  place-items: center;
+  background-color: white;
+}
+
+.infobloc{
+  width: 80vw;
+  margin: 5vh 10vw;
+  background-color: white;
+
+
+  .paragraph{
+
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+
+    .logo{
+      height: 5vh;
+      margin: 20px;
+    }
+    p{
+      color: black;
+      margin: 10px 20px;
+    }
+  }
+
+}

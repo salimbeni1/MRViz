@@ -1,0 +1,31 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 92 92">
+  <defs>
+    <style>
+      .cls-1 {
+        fill: red;
+        stroke: red;
+      }
+
+      .cls-1, .cls-2, .cls-3 {
+        stroke-linecap: round;
+        stroke-miterlimit: 10;
+        stroke-width: 18px;
+      }
+
+      .cls-2 {
+        fill: lime;
+        stroke: lime;
+      }
+
+      .cls-3 {
+        fill: #fff;
+        stroke: blue;
+      }
+    </style>
+  </defs>
+  <g id="Layer_18" data-name="Layer 18">
+    <line class="cls-1" x1="46.5" y1="47" x2="46.5" y2="13"/>
+    <line class="cls-2" x1="77.5" y1="77.5" x2="46.5" y2="46.5"/>
+    <line class="cls-3" x1="15.5" y1="77.5" x2="46.5" y2="46.5"/>
+  </g>
+</svg>

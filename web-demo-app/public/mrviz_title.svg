@@ -1,0 +1,41 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 316 117">
+  <defs>
+    <style>
+      .cls-1, .cls-2, .cls-3 {
+        fill: #fff;
+        stroke-linecap: round;
+        stroke-miterlimit: 10;
+        stroke-width: 18px;
+      }
+
+      .cls-1 {
+        stroke: red;
+      }
+
+      .cls-2 {
+        stroke: blue;
+      }
+
+      .cls-3 {
+        stroke: lime;
+      }
+    </style>
+  </defs>
+  <g id="Layer_19" data-name="Layer 19">
+    <line class="cls-1" x1="17" y1="18" x2="17" y2="98"/>
+    <line class="cls-2" x1="42.5" y1="55.5" x2="17" y2="18"/>
+    <line class="cls-3" x1="43" y1="56" x2="67" y2="18"/>
+    <line class="cls-1" x1="67" y1="18" x2="67" y2="99"/>
+    <line class="cls-2" x1="99" y1="16" x2="99" y2="98"/>
+    <line class="cls-3" x1="99" y1="16" x2="148" y2="16"/>
+    <line class="cls-2" x1="148" y1="16" x2="148" y2="56"/>
+    <line class="cls-1" x1="99" y1="56" x2="148" y2="56"/>
+    <line class="cls-3" x1="147" y1="98" x2="99" y2="56"/>
+    <line class="cls-3" x1="177" y1="16" x2="201" y2="99"/>
+    <line class="cls-1" x1="225" y1="16" x2="201" y2="99"/>
+    <line class="cls-2" x1="245" y1="64" x2="245" y2="98"/>
+    <line class="cls-1" x1="270" y1="64" x2="302" y2="64"/>
+    <line class="cls-2" x1="271" y1="99" x2="302" y2="64"/>
+    <line class="cls-3" x1="302" y1="99" x2="271" y2="99"/>
+  </g>
+</svg>
