@@ -12,9 +12,11 @@ main UNITY application
 
 #### Scenes
 
-`MoveWithCube`
+These two scenes act in the same way. Both visualization will follow the cube in the scene. But:
 
-`MoveWithTF`
+`MoveWithCube`: Makes the drawing gameObject the child of a cube. Updates smoothly. Only works for robot-centered viz.
+
+`MoveWithTF`: A publisher in the scene will publish the TF-tree based on the position of the cube. Update a little slow beacuse of the publishing frequency. Ideally, this way works for any viz but require some manual configuration.
 
 ### ROS
 
