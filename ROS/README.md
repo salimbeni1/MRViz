@@ -1,5 +1,3 @@
-
-
 # ROS (melodic) docker
 
 execute the following commands in the given order. (everything should happen in the same terminal)
@@ -7,24 +5,33 @@ execute the following commands in the given order. (everything should happen in 
 ## unzip the rosbag in the data directory !
 
 ## setup ros container
-```
+
+```sh
 docker build -t melodic -f ROS/Dockerfile ROS/
 
 docker run -it --rm -v ${pwd}/data:/home/data -p 10000:10000 melodic /bin/bash
 ```
-## setup ros_tcp_endpoint
+
+PS: If you encounter errors because of the tail `/r`, try to add this command after the line 13 of the dockerfile.
+
+```Dockerfile
+RUN sed -i 's/\r$//' /setup.sh
 ```
+
+## setup ros_tcp_endpoint
+
+```sh
 source devel/setup.bash
 roslaunch ros_tcp_endpoint endpoint.launch &
 ```
+
 ## setup rosbag loop play
+
 you can test other rosbags if you place them in the data folder and adapt the following command
-```
+
+```sh
 rosbag play /home/data/ex1.bag
 ```
-
-
-
 
 # ROS 2 (foxy) docker
 

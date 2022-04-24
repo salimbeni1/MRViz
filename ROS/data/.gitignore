@@ -1,3 +1,2 @@
-sample_moriyama_150324.bag2/
-rosbag2_2022_04_05-15_29_46/
-ex1.bag
+*
+!.gitignore
