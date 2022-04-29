@@ -112,6 +112,9 @@ export default function Home() {
     </div>
 
     <div className={styles.infobloc}>
+
+      <h2> Topics MR visualizations </h2>
+
       <div className={styles.paragraph}>
           <div className={styles.logo} > {get_point()} </div>
           <p> Nowadays, engineers developing robotics software have a serious constraint.
@@ -166,6 +169,10 @@ export default function Home() {
     </div>
 
     <div className={styles.infobloc}>
+      
+        <h2> World frame anchor </h2>
+
+
       <div className={styles.paragraph}>
           <div className={styles.logo} > {get_point()} </div>
           <p> Nowadays, engineers developing robotics software have a serious constraint.
@@ -200,6 +207,9 @@ export default function Home() {
     
 
     <div className={styles.infobloc}>
+
+      <h2> Robot frame anchor </h2>
+
       <div className={styles.paragraph}>
           <div className={styles.logo} > {get_point()} </div>
           <p> Nowadays, engineers developing robotics software have a serious constraint.
