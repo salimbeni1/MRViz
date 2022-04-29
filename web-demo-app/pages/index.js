@@ -2,27 +2,23 @@ import Head from 'next/head'
 import Image from 'next/image'
 import styles from '../styles/Home.module.scss'
 
-import { Canvas } from "react-three-fiber";
+import { Canvas } from "@react-three/fiber";
 import {
   MeshDistortMaterial,
   MeshWobbleMaterial,
   Sphere,
-  OrbitControls
+  OrbitControls,
+  OrthographicCamera,
+  PresentationControls,
 } from "@react-three/drei";
+import Mrviz_logo from '../model3d/Mrviz_logo';
 
 const get_logo = () => {
 
-  return <Canvas >
-      <ambientLight intensity={1} />
-
-      <directionalLight position={[10, 10, 10]} intensity={10} color="red" />
-      <directionalLight position={[10, -10, 10]} intensity={10} color="blue" />
-        <mesh
-          scale={3}>
-          <boxGeometry args={[1, 1, 1]} />
-          <meshStandardMaterial color='black' />
-        </mesh>
-      <OrbitControls></OrbitControls>
+  return <Canvas dpr={[1, 2]} orthographic camera={{ position: [-10, 10, 10], zoom: 100 }} >
+        <PresentationControls global zoom={0.5} rotation={[0, -Math.PI / 4, 0]} polar={[0, Math.PI / 4]} azimuth={[-Math.PI / 4, Math.PI / 4]}>
+          <Mrviz_logo rotation={[0, -Math.PI / 4, 0]} scale={0.09} />
+        </PresentationControls>  
     </Canvas>
   
 }
@@ -36,7 +32,7 @@ export default function Home() {
 
     <div className={styles.header}>
       <div className={styles.logo} > {get_logo()} </div>
-      <img className={styles.title} src = "mrviz_title.svg" alt="MRViz title"/>
+      <h1> MRViz </h1>
       <div className={styles.logo} > {get_logo()} </div>
     </div>
 

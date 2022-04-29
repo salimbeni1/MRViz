@@ -17,8 +17,10 @@
     cursor: pointer;
   }
 
-  .title{
-    height: 20vh;
+  h1{
+    font-size: 10vh;
+    margin: 0;
+    color: #737373;
   }
 
 }
@@ -29,13 +31,13 @@
   margin: 5vh 10vw;
   display: grid;
   place-items: center;
-  background-color: white;
+  background-color: rgb(255, 255, 255);
 }
 
 .infobloc{
   width: 80vw;
   margin: 5vh 10vw;
-  background-color: white;
+  background-color: rgb(255, 255, 255);
 
 
   .paragraph{
