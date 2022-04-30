@@ -4,7 +4,11 @@
 EditorBuildSettings:
   m_ObjectHideFlags: 0
   serializedVersion: 2
-  m_Scenes: []
+  m_Scenes:
+  - enabled: 1
+    path: Assets/Scenes/MoveWithCube.unity
+    guid: 3d92ed7e8705cba4cbaa7e868ef91d24
   m_configObjects:
+    UnityEditor.XR.ARCore.ARCoreSettings: {fileID: 11400000, guid: 8925c2223a8b4eb4199a9f1644d20276, type: 2}
     com.unity.xr.management.loader_settings: {fileID: 11400000, guid: cc7ae6691fd2ab341bb2973c70672a39, type: 2}
     com.unity.xr.openxr.settings4: {fileID: 11400000, guid: 2385ee9c332777f42b331fe65aab0964, type: 2}

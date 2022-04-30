@@ -1,7 +1,7 @@
 using System.Collections.Generic;
 using RosMessageTypes.Geometry;
 using Unity.Robotics.Core;
-using Unity.Robotics.UrdfImporter;
+// using Unity.Robotics.UrdfImporter;
 using UnityEngine;
 
 namespace Unity.Robotics.SlamExample
@@ -35,7 +35,7 @@ namespace Unity.Robotics.SlamExample
                 var childGO = childTransform.gameObject;
 
                 // If game object has a URDFLink attached, it's a link in the transform tree
-                if (childGO.TryGetComponent(out UrdfLink _))
+                if ( false  ) // childGO.TryGetComponent(out UrdfLink _))
                 {
                     var childNode = new TransformTreeNode(childGO);
                     tfNode.Children.Add(childNode);
