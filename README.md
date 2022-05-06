@@ -2,7 +2,7 @@
 
 Mixed Reality toolkit for ROS visualization (on Hololens)
 
-[Milestone 1](./milestone_1.pdf) · Milestone 2
+[Milestone 1](./milestone_1.pdf) · [Milestone 2](./milestone_2.pdf)
 
 ## directory setup
 
