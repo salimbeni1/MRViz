@@ -146,7 +146,7 @@ export default function Home() {
 
           <OrbitControls enableZoom={false}/>
         
-    </Canvas>
+      </Canvas>
     </div>
 
     <div className={styles.infobloc}>
@@ -167,7 +167,8 @@ export default function Home() {
       <div className={styles.paragraph}>
           <div className={styles.logo} > {get_point()} </div>
           <p> In this case the user can manually position and orient a static anchor, 
-            and place it to the "reference point" the ROS transforms are mapping to.  </p>
+            and place it to the "reference point" the ROS transforms are mapping to.  
+            </p>
       </div>
 
 
@@ -200,16 +201,12 @@ export default function Home() {
       <div className={styles.paragraph}>
           <div className={styles.logo} > {get_point()} </div>
           <p> In this case, we track the robot position by exploiting undistorted images or 3D object tracking methods. 
-            The sensor visualisions are then transformed to the moving anchor that follows the robot.  </p>
+            The sensor visualisions are then transformed to the moving anchor that follows the robot.  
+            </p>
       </div>
-
 
     </div>
   
-  
-  
-  
   </>
-   
   
 }
