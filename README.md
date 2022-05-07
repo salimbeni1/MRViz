@@ -36,6 +36,18 @@ tools to launch ros docker containers as well as their rosbags
 
 directory for the website to showcase the project
 
+### Android setup 
+
+remove the .dll x86 file that cause the 1st error
+
+make sure all the runtime packages include Android : 
+
+- \MRViz\MRViz\Library\PackageCache\com.unity.robotics.ros-tcp-connector@c27f00c6cf\Runtime\Unity.Robotics.ROSTCPConnector.asmdef
+
+- C:\Users\etien\Desktop\MRViz\MRViz\Library\PackageCache\com.unity.robotics.urdf-importer@90f353e435\Runtime\Unity.Robotics.URDFImporter.asmdef
+
+- C:\Users\etien\Desktop\MRViz\MRViz\Library\PackageCache\com.unity.robotics.visualizations@c27f00c6cf\Runtime\Unity.Robotics.Visualizations.asmdef
+
 ## main project setup
 
 ### clone repository

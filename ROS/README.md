@@ -30,7 +30,7 @@ roslaunch ros_tcp_endpoint endpoint.launch &
 you can test other rosbags if you place them in the data folder and adapt the following command
 
 ```sh
-rosbag play /home/data/ex1.bag
+rosbag play /home/data/ex1.bag --loop
 ```
 
 # ROS 2 (foxy) docker
