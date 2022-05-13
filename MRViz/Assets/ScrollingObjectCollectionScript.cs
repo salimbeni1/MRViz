@@ -12,38 +12,34 @@ public class ScrollingObjectCollectionScript : MonoBehaviour
     public GameObject buttonPrefab;
 
     private ROSConnection m_Connection;
-    private Dictionary<string, int> m_Topics = new Dictionary<string, int>();
+    private List<RosTopicState> m_Topics = new List<RosTopicState>();
 
     private void Start()
     {
         m_Connection = ROSConnection.GetOrCreateInstance();
         m_Connection.ListenForTopics(onNewTopic, notifyAllExistingTopics: true);
 
-        InsertIntoObjectCollection(m_Topics);
+        StartCoroutine(InsertIntoObjectCollection_Coroutine()); // add buttons for available topics
     }
 
     private void onNewTopic(RosTopicState state)
     {
-        int vis;
-        if (!m_Topics.TryGetValue(state.Topic, out vis))
+        if (!m_Topics.Contains(state))
         {
-            vis = 0;
-            m_Topics.Add(state.Topic, vis);
+            m_Topics.Add(state);
         }
     }
 
-    public void InsertIntoObjectCollection(Dictionary<string, int> m_Topics)
+    public IEnumerator InsertIntoObjectCollection_Coroutine()
     {
-        StartCoroutine(InsertIntoObjectCollection_Coroutine(m_Topics));
-    }
-
-    public IEnumerator InsertIntoObjectCollection_Coroutine(Dictionary<string, int> m_Topics)
-    {
-        foreach (KeyValuePair<string, int> kvp in m_Topics)
+        foreach(var topic in m_Topics)
         {
             var button = Instantiate(buttonPrefab, gridObjectCollection.transform);
             ButtonConfigHelper bch = button.GetComponent<ButtonConfigHelper>();
-            bch.MainLabelText = kvp.Key;
+            bch.MainLabelText = topic.Topic;
+
+            TopicButtonScript tbs = button.GetComponent<TopicButtonScript>();
+            tbs.topic = topic;
         }
 
         yield return new WaitForEndOfFrame();
@@ -51,16 +47,4 @@ public class ScrollingObjectCollectionScript : MonoBehaviour
         yield return new WaitForEndOfFrame();
         scrollingObjectCollection.UpdateContent();
     }
-
-    // Start is called before the first frame update
-    /*void Start()
-    {
-        
-    }
-
-    // Update is called once per frame
-    void Update()
-    {
-        
-    }*/
 }
