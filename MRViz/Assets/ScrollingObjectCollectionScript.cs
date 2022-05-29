@@ -35,6 +35,8 @@ public class ScrollingObjectCollectionScript : MonoBehaviour
         foreach(var topic in m_Topics)
         {
             var button = Instantiate(buttonPrefab, gridObjectCollection.transform);
+            button.SetActive(true);
+
             ButtonConfigHelper bch = button.GetComponent<ButtonConfigHelper>();
             bch.MainLabelText = topic.Topic;
 
