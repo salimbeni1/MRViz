@@ -1,13 +1,9 @@
-# MRViz
-
-Mixed reality toolkit for ROS visualization on Microsoft HoloLens.
-
-[Milestone 1](./milestone_1.pdf) · [Milestone 2](./milestone_2.pdf)
-
-## Introduction
+# MRViz – Mixed reality toolkit for ROS visualization on Microsoft HoloLens.
 MRViz is a mixed reality toolkit which allows to visualize a robot’s real-time perception of its environment, e.g. a LIDAR point cloud or a heatmap, in the physical world using a Microsoft HoloLens 2 headset.
 
 A demonstration of MRViz's capabilities is available on [our webpage](https://mrviz.vercel.app).
+
+[Milestone 1](./milestone_1.pdf) · [Milestone 2](./milestone_2.pdf)
 
 ## Setup
 The toolkit can be tested using Unity and a rosbag file which simulates a robot.
