@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<QCARConfig>
+<Tracking>
+<ModelTarget name="VLSportsCar" motionHint="adaptive" trackingMode="default"/>
+
+</Tracking>
+
+<Assembly name="VLSportsCars_assembly" assemblyId="8c4f79736c7f4301a15bf4fb231f4fdb">
+<Part name="VLSportsCar" translation="0 0 0" rotation="AD: 0 0 1 0"/>
+<EntryPoint name="viewpoint_0000" translation="-0.000347255 0.0183686 0.1909" rotation="AD: 0.999774 0.0790194 -0.289941 209.256" trained="no">
+
+</EntryPoint>
+<EntryPoint name="viewpoint_0001" translation="0.000259792 0.0177663 0.19185" rotation="AD: -0.813705 -0.647645 2.17352 168.508" trained="no">
+
+</EntryPoint>
+<EntryPoint name="viewpoint_0002" translation="-0.000265808 0.0193703 0.189026" rotation="AD: 0.999615 -0.0835884 0.36209 204.419" trained="no">
+
+</EntryPoint>
+<EntryPoint name="viewpoint_0003" translation="0.000279901 0.0198994 0.187807" rotation="AD: 0.935657 -0.397021 2.00469 189.426" trained="no">
+
+</EntryPoint>
+
+</Assembly>
+
+</QCARConfig>

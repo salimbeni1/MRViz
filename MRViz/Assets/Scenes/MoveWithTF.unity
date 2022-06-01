@@ -147,7 +147,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 199619003}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalPosition: {x: 0, y: 0, z: -14.98}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
   - {fileID: 948538710}
@@ -194,11 +194,14 @@ MonoBehaviour:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 307617841}
-  m_Enabled: 0
+  m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 575f4abd0942f5c4187ff6195cea525f, type: 3}
+  m_Script: {fileID: 11500000, guid: 55f1220055f044b4d9aa6646788617a5, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  sliderSettings: {fileID: 11400000, guid: 133942d0f9e72764b963b7bd50feb87c, type: 2}
+  tfRootName: odom_combined
+  tfRoot: {fileID: 0}
 --- !u!114 &307617844
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -871,7 +874,7 @@ BoxCollider:
   m_GameObject: {fileID: 948538706}
   m_Material: {fileID: 0}
   m_IsTrigger: 0
-  m_Enabled: 1
+  m_Enabled: 0
   serializedVersion: 2
   m_Size: {x: 1, y: 1, z: 1}
   m_Center: {x: 0, y: 0, z: 0}
@@ -1168,7 +1171,6 @@ GameObject:
   m_Component:
   - component: {fileID: 2044765064}
   - component: {fileID: 2044765065}
-  - component: {fileID: 2044765066}
   m_Layer: 0
   m_Name: Publisher
   m_TagString: Untagged
@@ -1207,15 +1209,3 @@ MonoBehaviour:
   - map
   - odom
   m_RootGameObject: {fileID: 1314777572}
---- !u!114 &2044765066
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 2044765063}
-  m_Enabled: 0
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 575f4abd0942f5c4187ff6195cea525f, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
