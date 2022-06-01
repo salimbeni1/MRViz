@@ -50,10 +50,13 @@ make sure all the runtime packages include Android :
 
 ## main project setup
 
-### clone repository
+1. Register and download `Add Vuforia Engine to a Unity Project or upgrade to the latest version` from `https://developer.vuforia.com/downloads/sdk` (To deploy on Android, `Download for Android` may be needed. Please refer to Vuforia doc).
 
-### open MRViz directory as a project with Unity Hub
+2. After import the downloaded package, the errors should be fixed. You also need to enter the API-KEY to enable the AR features. See `https://library.vuforia.com/getting-started/getting-started-vuforia-engine-unity`.
 
-### launch the ROS2 docker container with the appropriate rosbag (follow intructions)
+3. The car model can be found here: `https://visionlib.com/wp-content/uploads/resources/vlsportscar/VL-SportsCar-Print-A4.pdf`.
 
-### press play on Unity
+4. Before "Play"ing the project:
+    + To test the Robot Anchor Method, please disable the `Drone` Object in the hierarchy panel.
+
+    + To test the World Anchor Method, please install tf2 packages in ROS and enable the `Drone` Object in the hierarchy panel.
