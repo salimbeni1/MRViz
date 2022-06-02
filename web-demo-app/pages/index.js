@@ -57,7 +57,9 @@ export default function Home() {
 
 
     <div className={styles.introdemo}>
-      <h3>...VIDEO...</h3>
+      <video controls autoPlay muted>
+      <source src="video.mp4" type="video/mp4"/>
+      </video>
     </div>
 
     <div style={{position:"relative" , height:"300px"}}>
