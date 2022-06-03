@@ -199,9 +199,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 55f1220055f044b4d9aa6646788617a5, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  sliderSettings: {fileID: 11400000, guid: 133942d0f9e72764b963b7bd50feb87c, type: 2}
-  tfRootName: odom_combined
-  tfRoot: {fileID: 0}
 --- !u!114 &307617844
 MonoBehaviour:
   m_ObjectHideFlags: 0
