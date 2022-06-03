@@ -3,7 +3,7 @@ MRViz is a mixed reality toolkit which allows to visualize a robot’s real-time
 
 A demonstration of MRViz's capabilities is available on [our webpage](https://mrviz.vercel.app).
 
-[Milestone 1](./milestone_1.pdf) · [Milestone 2](./milestone_2.pdf)
+[Milestone 1](./milestone_1.pdf) · [Milestone 2](./milestone_2.pdf) · [Process book](./process_book.pdf)
 
 ## Setup
 The toolkit can be tested using Unity and a rosbag file which simulates a robot.
