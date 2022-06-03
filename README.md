@@ -56,7 +56,5 @@ make sure all the runtime packages include Android :
 
 3. The car model can be found here: `https://visionlib.com/wp-content/uploads/resources/vlsportscar/VL-SportsCar-Print-A4.pdf`.
 
-4. Before "Play"ing the project:
-    + To test the Robot Anchor Method, please disable the `Drone` Object in the hierarchy panel.
 
-    + To test the World Anchor Method, please install tf2 packages in ROS and enable the `Drone` Object in the hierarchy panel.
+4. **New:** To test the World Anchor Method, please install tf2 packages in ROS.
