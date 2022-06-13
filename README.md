@@ -1,4 +1,4 @@
-# MRViz – Mixed reality toolkit for ROS visualization on Microsoft HoloLens.
+# MRViz – Mixed reality toolkit for ROS visualization
 
 ![Screenshot](./Screenshot.png)
 
