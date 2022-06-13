@@ -2,7 +2,7 @@
 
 ![Screenshot](./Screenshot.png)
 
-MRViz is a mixed reality toolkit which allows to visualize a robot’s real-time perception of its environment, e.g. a LIDAR point cloud or a heatmap, in the physical world using a Microsoft HoloLens 2 headset.
+MRViz is a mixed reality toolkit which allows to visualize a robot’s real-time perception of its environment, e.g. a LIDAR point cloud or a heatmap, in the physical world using a Microsoft HoloLens 1/2 headset, Windows integrated cameras and Android devices.
 
 A demonstration of MRViz's capabilities is available on [our webpage](https://mrviz.vercel.app).
 
